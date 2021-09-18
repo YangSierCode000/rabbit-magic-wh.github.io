@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title></title>
+  
+  <subtitle>兔叽的魔法工房</subtitle>
+  <link href="https://rabbitwh.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://rabbitwh.github.io/"/>
+  <updated>2021-09-18T03:18:08.429Z</updated>
+  <id>https://rabbitwh.github.io/</id>
+  
+  <author>
+    <name>RMH</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MVC 软件架构对于现实生活的启发</title>
+    <link href="https://rabbitwh.github.io/2021/09/14/2-mvc-real-life/"/>
+    <id>https://rabbitwh.github.io/2021/09/14/2-mvc-real-life/</id>
+    <published>2021-09-14T10:43:05.000Z</published>
+    <updated>2021-09-18T03:18:08.429Z</updated>
+    
+    <content type="html"><![CDATA[<p>作者：@Discover<br>本文章出自企划：麻瓜指南，一个创作者互帮互助共同创作的企划。联系方式见文末尾。</p><blockquote><p>一句话MVC架构：拆开面子和里子，再使用有结构的数据管道连在一起。</p></blockquote><p>近期学习了MVC的软件架构。期间不禁得思考这样的架构是否可以作为支撑日常生活计划甚至是思考的模型。</p><span id="more"></span><p><img src="https://image.discover304.top/MCV-Page-3.png" alt="MCV-Page-3"></p><p>从旁观者的角度审视MVC架构，我们可以给出如下的解释：</p><ol><li>界面View注重交互，强调数据的输入和输出展示。</li><li>业务逻辑Control注重的数据的处理，包括计算、存储。</li><li>数据模型Model注重的是数据的格式，封装界面和业务逻辑间传递的数据。</li><li>MVC的目的是分离界面View和业务逻辑Control，并使用数据模型Model打包整理数据。</li><li>维护更加便捷，添加功能更容易。</li></ol><p><img src="https://image.discover304.top/MCV-Page-1.png" alt="MCV-Page-1"></p><p>明白了上面的内容，接下来我们站在程序的立场上，思考一下MVC这个架构。</p><blockquote><p>我们有两个主人公小V小C，还有叫做M的箱子。小V喜欢社交，经常会展示各种各样有意思的东西给人看，也会收到很多的礼物。他会把一大堆的礼物按照箱子M上标注的顺序装好，送给小C。小C是技术宅，喜欢把箱子M里的东西拆拆合合，重组融合。然后再把数据收到一个箱子M，可以是不同的箱子M，然后在送回小V。小C和小V是好朋友，他们会帮助对方做事情。</p></blockquote><p><img src="https://image.discover304.top/MCV-Page-2.png" alt="MCV-Page-2"></p><p>我们注意到，在这个小情景剧里，数据模型箱子M起到的作用是规范数据的传递，帮助界面小V和业务逻辑小C互相之间送礼物也就是数据。我们还注意到，小V和小C一个专注对外一个专注对内，除了使用箱子传递数据就只有互相调用的关系，是一种很强的绑定。</p><p>在生活中是否有这样的场景呢？有的，而且很多。像是我们有一个小组，其中有组长和组员。组长负责指挥和对外的沟通，组员负责执行具体的任务。组长和组员之间沟通的方式是是规范好的申请表、报告书还有任务通知书。其中组长是界面V，组员是业务逻辑C，满天飞的文档是数据模型M，一套标准的MVC架构。</p><p>说了这么多，到底如何在日常生活中使用MVC的思想呢？</p><p>MVC本质依然是一个框架，是一个解决问题题的模板，他告诉我们在设计解决一个问题的方法的时候要拆分能看到表面的逻辑和隐藏好的背后的逻辑，并且两部分逻辑要有条理的连接在一起。</p><blockquote><p>当我们遇到了一个难题，我们首先识别这个难题的题面（View）给我们提供了哪些信息。其次我们思考这些信息是怎样进入这个题的背景，目的是寻找封装信息（Model）的最好方法。最后我们根据封装好的信息设计解决难题的方法（Control）。</p></blockquote><p>相较于遇到问题直接就开始写解答的意识流，这种 MVC 迁移过来的思想能够降低问题的复杂性，帮助我们设计解题流程。</p><hr><p>我们有一个堆满创意点子的秘密基地，里面有很多有意思的小伙伴。生活什么的、技术什么的、二次元什么的都可以聊得开。欢迎加入我们的小群：<strong>兔叽的魔术工房</strong>。群内会经常发布各种各样的企划，总会遇上你感兴趣的。</p><p><img src="https://api.btstu.cn/sjbz/api.php?lx=dongman&format=images"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;作者：@Discover&lt;br&gt;本文章出自企划：麻瓜指南，一个创作者互帮互助共同创作的企划。联系方式见文末尾。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一句话MVC架构：拆开面子和里子，再使用有结构的数据管道连在一起。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;近期学习了MVC的软件架构。期间不禁得思考这样的架构是否可以作为支撑日常生活计划甚至是思考的模型。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Understanding" scheme="https://rabbitwh.github.io/categories/Understanding/"/>
+    
+    
+    <category term="技术" scheme="https://rabbitwh.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="思考" scheme="https://rabbitwh.github.io/tags/%E6%80%9D%E8%80%83/"/>
+    
+    <category term="积累" scheme="https://rabbitwh.github.io/tags/%E7%A7%AF%E7%B4%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://rabbitwh.github.io/2020/05/20/1-hello-world/"/>
+    <id>https://rabbitwh.github.io/2020/05/20/1-hello-world/</id>
+    <published>2020-05-20T14:00:00.000Z</published>
+    <updated>2020-05-21T08:20:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><span id="more"></span><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="GroupRelated" scheme="https://rabbitwh.github.io/categories/GroupRelated/"/>
+    
+    
+    <category term="纪念" scheme="https://rabbitwh.github.io/tags/%E7%BA%AA%E5%BF%B5/"/>
+    
+  </entry>
+  
+</feed>
